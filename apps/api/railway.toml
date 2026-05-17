@@ -1,0 +1,7 @@
+[build]
+  builder = "DOCKERFILE"
+
+[deploy]
+  startCommand = "npx prisma migrate deploy && node dist/main"
+  healthcheckPath = "/api/auth/health"
+  healthcheckTimeout = 30
