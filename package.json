@@ -2,6 +2,7 @@
   "name": "metro-events",
   "version": "1.0.0",
   "private": true,
+  "packageManager": "yarn@1.22.19",
   "workspaces": [
     "apps/*",
     "packages/*"
